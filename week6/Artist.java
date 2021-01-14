@@ -3,28 +3,17 @@ package week6;
 public class Artist extends Person
 {
     String genra;
-    String job;
 
-    Artist(String name, int age, String gender)
+    Artist(String name, int age, String gender, String job)
     {
         this.name = name;
         this.age = age;
         this.gender = gender;
-    }
-
-    public String getJob()
-    {
-        return job;
-    }
-
-    public void setJob(String newJob)
-    {
-        this.job = job + " "+ newJob ;
+        this.job = job;
     }
 
     public void playMusic()
     {
         System.out.println(name+ " is playing "+ genra+" music");
-        System.out.println("Job is "+getJob());
     }
 }

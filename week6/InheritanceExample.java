@@ -4,14 +4,9 @@ public class InheritanceExample
 {
     public static void main(String[] args) 
     {
-        Artist art = new Artist("Ning", 18, "F");
+        Artist art = new Artist("Ning", 18, "F", "doctor"+" engineer"+" student"+" CEO"+" veterinarian");
 
         art.genra = "K-POP";
-        art.setJob("doctor");
-        art.setJob("engineer");
-        art.setJob("student");
-        art.setJob("CEO");
-        art.setJob("veterinarian");
         art.introduce();
         art.playMusic();
     }

@@ -24,5 +24,6 @@ public class Person
     {
         System.out.println("My name is "+name);
         System.out.println("My gender is "+gender);
+        System.out.println("Job is "+job);
     }
 }
