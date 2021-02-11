@@ -9,7 +9,7 @@ public class Human
 
     public static void main(String[] args) 
     {
-        Animal dog = new Dog(); //Q1 ทำไมให้Dog()กับdogได้ Ans>dog in Animal type is assign a new value, for exemple Animal dog = new Dog(); is means dog will display value of Dog class 
+        Animal dog = new Dog(); //Q1 ทำไมให้Dog()กับdogได้ Ans>dog in Animal type is assign a new value, for example Animal dog = new Dog(); is means dog will display value of Dog class 
         Human human = new Human();
         System.out.println("The first calling hit(Animal)");
         human.hit(dog); //Q2 ผลลัพท์เดียวกัน? ทำไม?
